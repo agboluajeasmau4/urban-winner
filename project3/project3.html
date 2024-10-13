@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Store</title>
+    <link rel="stylesheet" href="project3.css">
+    <script src="product3.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo"><a href="#">eShop</a></h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="cart-icon">
+                <a href="#cart">Cart <span id="cart-count">0</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to eShop</h1>
+            <p>Discover the best products at unbeatable prices.</p>
+            <a href="#products" class="cta-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            <div class="product-item" data-id="1">
+                <img src="product0.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$29.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-item" data-id="2">
+                <img src="product1.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$19.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-item" data-id="3">
+                <img src="product2.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>$39.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="cart">
+        <h2>Your Cart</h2>
+        <div class="cart-items">
+            <p>Your cart is empty.</p>
+        </div>
+        <button id="checkout-btn" class="checkout-btn">Checkout</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries, please reach us at <a href="mailto:info@eshop.com">info@eshop.com</a></p>
+    </section>
+</body>
+</html>
